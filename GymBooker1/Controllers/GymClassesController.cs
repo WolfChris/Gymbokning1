@@ -21,6 +21,7 @@ namespace GymBooker1.Controllers
         }
 
         // Booking method
+        [Authorize]
         public ActionResult BookingToggle(int id)
         {
             GymClass CurrentClass = db.GymClasses.Where(g => g.Id == id).FirstOrDefault();
@@ -41,6 +42,7 @@ namespace GymBooker1.Controllers
 
 
         // GET: GymClasses/Details/5
+        [Authorize]
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -56,6 +58,7 @@ namespace GymBooker1.Controllers
         }
 
         // GET: GymClasses/Create
+        [Authorize]
         public ActionResult Create()
         {
             return View();
@@ -79,6 +82,7 @@ namespace GymBooker1.Controllers
         }
 
         // GET: GymClasses/Edit/5
+        [Authorize]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -110,6 +114,7 @@ namespace GymBooker1.Controllers
         }
 
         // GET: GymClasses/Delete/5
+        [Authorize]
         public ActionResult Delete(int? id)
         {
             if (id == null)
