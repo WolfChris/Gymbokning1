@@ -208,6 +208,10 @@
     <Compile Include="Migrations\201711141300519_GymClassControllerAdded.Designer.cs">
       <DependentUpon>201711141300519_GymClassControllerAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711141355214_bokinglinks.cs" />
+    <Compile Include="Migrations\201711141355214_bokinglinks.Designer.cs">
+      <DependentUpon>201711141355214_bokinglinks.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\GymClass.cs" />
@@ -304,6 +308,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711141300519_GymClassControllerAdded.resx">
       <DependentUpon>201711141300519_GymClassControllerAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711141355214_bokinglinks.resx">
+      <DependentUpon>201711141355214_bokinglinks.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
