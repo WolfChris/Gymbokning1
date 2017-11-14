@@ -42,7 +42,7 @@ namespace GymBooker1.Controllers
 
 
         // GET: GymClasses/Details/5
-        [Authorize]
+        //[Authorize]
         public ActionResult Details(int? id)
         {
             if (id == null)
